@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #4b0c01;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+nav {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content {
+    width: 1200px;
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text-content {
+    width: 40%;
+    align-self: center;
+    align-items: center;
+}
+
+.image-content {
+    width: 50%;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    line-height: .75;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.discover {
+    color: #D2691E;
+    vertical-align: middle;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+p {
+    color: #898989;
+    line-height: 1.;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #D2691E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color:#4b0c01;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+.welcome {
+    text-decoration: underline
+}
