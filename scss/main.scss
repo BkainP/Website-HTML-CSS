@@ -1,4 +1,4 @@
-@use "./vendor/normalize.scss";
+@use "./vendor/_normalize.scss";
 @use "colors";
 body {
   color: colors.$primary-color;
