@@ -1,0 +1,6 @@
+@use "./vendor/normalize.scss";
+@use "colors";
+body {
+  color: colors.$primary-color;
+  background: colors.$secondary-color;
+}
