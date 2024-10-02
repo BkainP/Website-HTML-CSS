@@ -1,6 +1,7 @@
-@use "./vendor/_normalize.scss";
-@use "colors";
+@import "./vendor/_normalize.scss";
+@import "./colors";
+
 body {
-  color: colors.$primary-color;
-  background: colors.$secondary-color;
+  color: $primary-font-color;
+  background: $dark-background;
 }
